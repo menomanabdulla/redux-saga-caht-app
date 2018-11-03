@@ -11,8 +11,6 @@ import './index.css';
 import App from './components/chat/App';
 import * as serviceWorker from './serviceWorker';
 
-import rootReducer from './store/reducer/rootReducer'
-
 
 ReactDOM.render(
     <Provider store={store}>
